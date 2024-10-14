@@ -1,0 +1,23 @@
+name: form_generator_kosmos
+description: A new Flutter package project.
+version: 1.1.0
+homepage: none
+publish_to: none
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+  flutter: '>=1.17.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^4.6.1
+  image_picker: ^0.8.5+3
+  ui_kosmos_v4:
+    git:
+      publish_to: none
+      url: YOUR_URL
+      ref: main
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+flutter: null
